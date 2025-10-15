@@ -23,19 +23,33 @@ Adapt Qwen-2.5 to your custom dataset or task using efficient fine-tuning method
 
 
 ├── Fine_Tuning_Qwen_.ipynb # Main notebook for experiments
+
 ├── data/ # Datasets (raw / processed)
+
 ├── configs/ # Model and training configuration files
+
 │ ├── base_config.yaml
+
 │ └── qwen_adapter_config.yaml
+
 ├── scripts/ # CLI scripts for pipeline automation
+
 │ ├── preprocess.py
+
 │ ├── train.py
+
 │ └── evaluate.py
+
 ├── src/ # Core modules and helper functions
+
 │ ├── model_utils.py
+
 │ ├── trainer.py
+
 │ └── data_loader.py
+
 ├── requirements.txt # Python dependencies
+
 └── README.md # Project documentation
 
 ---
