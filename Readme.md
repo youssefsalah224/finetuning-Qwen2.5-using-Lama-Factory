@@ -21,7 +21,7 @@ Adapt Qwen-2.5 to your custom dataset or task using efficient fine-tuning method
 
 ## 📂 Repository Structure
 
-.
+
 ├── Fine_Tuning_Qwen_.ipynb # Main Jupyter notebook for experiments
 ├── data/ # Datasets (raw / processed)
 ├── configs/ # Model and training configuration files
