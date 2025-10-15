@@ -1,21 +1,21 @@
-# 🧠 Fine-Tuning Qwen-2.5 Using Lama Factory
+#  Fine-Tuning Qwen-2.5 Using Lama Factory
 
 This repository demonstrates how to **fine-tune the Qwen-2.5 large language model** using the **Lama Factory** framework.  
 It provides a full end-to-end workflow — from data preparation and configuration to training, evaluation, and inference.
 
 ---
 
-## 🚀 Overview
+##  Overview
 
 **Goal:**  
 Adapt Qwen-2.5 to your custom dataset or task using efficient fine-tuning methods such as LoRA or adapters, leveraging the modular tools provided by Lama Factory.
 
 **Key Features**
-- 📚 Instruction or domain-specific fine-tuning for Qwen-2.5  
-- ⚙️ Configurable training (learning rate, epochs, adapters, LoRA, etc.)  
-- 🧩 Data preprocessing utilities  
-- 🧠 Evaluation and inference scripts  
-- 💻 Example notebook for experimentation  
+-  Instruction or domain-specific fine-tuning for Qwen-2.5  
+-  Configurable training (learning rate, epochs, adapters, LoRA, etc.)  
+-  Data preprocessing utilities  
+-  Evaluation and inference scripts  
+-  Example notebook for experimentation  
 
 ---
 
@@ -43,7 +43,7 @@ Copy code
 
 ---
 
-## ⚡ Getting Started
+##  Getting Started
 
 ### 1️⃣ Prerequisites
 - Python **3.8+**
@@ -108,7 +108,7 @@ python scripts/evaluate.py \
   --output_path results/output.jsonl
 You can also load your model using Hugging Face’s pipeline or the helper functions in src/model_utils.py.
 
-📈 Tips & Best Practices
+Tips & Best Practices
 Use gradient accumulation to simulate large batch sizes on limited GPUs.
 
 Enable mixed precision (fp16/bf16) for better efficiency.
@@ -119,7 +119,7 @@ Consider using early stopping to avoid overfitting.
 
 Track progress via TensorBoard or Weights & Biases.
 
-✅ Expected Results
+Expected Results
 Fine-tuned models should show improved accuracy, instruction-following ability, or domain relevance compared to the base Qwen-2.5 model.
 
 You can evaluate performance with metrics like:
@@ -130,25 +130,22 @@ Accuracy / F1 (for classification)
 
 Perplexity (for language modeling)
 
-⚠️ Limitations
+ Limitations
 Requires strong GPU resources for large-scale fine-tuning
 
 Potential catastrophic forgetting on small datasets
 
 Fine-tuned models may inherit biases from training data
 
-🙏 Acknowledgments
+ Acknowledgments
 Qwen-2.5 by Alibaba Cloud
 
 Lama Factory for the modular fine-tuning toolkit
 
 Hugging Face Transformers and PEFT libraries for model utilities
 
-📜 License
-This project is released under the MIT License.
-See LICENSE for details.
 
-📚 Citation
+Citation
 If you use this project or build upon it, please cite:
 
 text
